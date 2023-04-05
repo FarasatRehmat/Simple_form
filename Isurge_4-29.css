@@ -1,0 +1,50 @@
+.Idenified_body form input:focus, .Idenified_body form select:focus{
+    box-shadow: none !important;
+}
+
+/* Outer */
+#popup {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  #popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 86%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  #close-popup-btn:hover {
+    background-color: #555;
+  }
+  .popup-content select {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+ }
+ .isurge_4-29-popup button{
+    width: 220px;
+ }
+ .left-border{
+    border-right: 1px solid rgb(173, 173, 173);
+ }
+
+ @media screen and (max-width: 767px){
+    .left-border{
+        border-right: none;
+     }
+ }
